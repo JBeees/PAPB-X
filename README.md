@@ -20,7 +20,7 @@ setContent {
                 Spacer(modifier = Modifier.height(8.dp))
                 FollowButton()
             }
-        }
+}
 ```
 Pada bagian column `fillMaxSize` digunakan agar column memiliki size yang sama dengan layar device. kemudian `horizontalAlignment` dan `vertical Alignment` digunakan untuk memposisikan profil ditengah layar. Kemudian `Image` memiliki size sebesar `120 dp` dan memiliki border circle. Kemudian juga ada 3 text, `Spacer` yang berfungsi untuk memberikan jarak sebesar 8dp. Kemudian pemanggilan fungsi `FollowButton()`
 ```kotlin
