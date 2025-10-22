@@ -14,7 +14,7 @@ class QuoteViewModel : ViewModel() {
         viewModelScope.launch(Dispatchers.Main) {
             _quote.value = "Loading..."
             val result = repository.getRandomQuote()
-            _quote.value = result
+            _quote.value = result   
         }
     }
 }
