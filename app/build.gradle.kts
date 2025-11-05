@@ -73,5 +73,7 @@ dependencies {
     implementation("androidx.room:room-ktx:2.8.2")
     kapt("androidx.room:room-compiler:2.8.2")
     implementation("androidx.compose.material:material-icons-extended-android:1.6.8") // Or a newer version
+    implementation("com.google.android.gms:play-services-location:21.3.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
 
 }
